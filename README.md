@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./screenshots/logo.png" alt="Tracklet Logo" width="100" />
+</div>
+
 # 📉 Tracklet — Smart Product Price Tracker  
 
 Track product prices across e-commerce platforms and get instant alerts when prices drop.  
