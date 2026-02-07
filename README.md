@@ -2,7 +2,7 @@
   <img src="./screenshots/logo.png" alt="Tracklet Logo" width="100" />
 </div>
 
-# 📉 Tracklet — Smart Product Price Tracker  
+# Tracklet — Smart Product Price Tracker  
 
 Track product prices across e-commerce platforms and get instant alerts when prices drop.  
 Built with Next.js, Firecrawl, Supabase, and Resend for reliable and automated price tracking.
@@ -24,9 +24,6 @@ Built with Next.js, Firecrawl, Supabase, and Resend for reliable and automated p
 
 ### 🏠 Landing Page
 ![Landing Page](./screenshots/landing-page.png)
-
-### 📦 Dashboard
-![Dashboard](./screenshots/dashboard.png)
 
 ### 📊 Price History Chart
 ![Price History](./screenshots/price-history.png)
