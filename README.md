@@ -1,76 +1,95 @@
-# 📉 Tracklet — Smart Price Tracking & Alert System
+# 📉 Tracklet — Smart Product Price Tracker  
 
-<div align="center">
-  <img src="./frontend/src/assets/logo.png" alt="Tracklet Logo" width="96" height="96">
-
-  <p><strong>Track prices. Buy smart.</strong><br>
-  Tracklet helps users monitor product prices, analyze price history, and receive instant alerts when prices drop.</p>
-
-  ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
-  ![Frontend](https://img.shields.io/badge/Frontend-React-blue?logo=react&style=flat-square)
-  ![Backend](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js&style=flat-square)
-  ![Database](https://img.shields.io/badge/Database-MongoDB-darkgreen?logo=mongodb&style=flat-square)
-</div>
+Track product prices across e-commerce platforms and get instant alerts when prices drop.  
+Built with **Next.js, Firecrawl, and Supabase** to provide reliable, automated price tracking at scale.
 
 ---
 
-## 🛒 About
+## 🎯 Features
 
-**Tracklet** is a full-stack price tracking application that allows users to track product prices from e-commerce platforms and get notified when prices drop.  
-It solves a real-world problem where users miss the best buying opportunity due to frequent and unpredictable price changes.
+🔍 **Track Any Product**  
+Works across multiple e-commerce platforms (Amazon, Flipkart, Walmart, Zara, etc.)
 
----
+📊 **Price History Charts**  
+Interactive charts to visualize price trends over time  
 
-## ⚙️ Tech Stack
+🔐 **Google Authentication**  
+Secure sign-in using Google OAuth via Supabase  
 
-- **Frontend:** React, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Web Scraping:** Axios, Cheerio  
-- **Scheduler:** Cron Jobs  
-- **Email Alerts:** Nodemailer / SMTP  
-- **Auth:** JWT-based Authentication  
+🔄 **Automated Daily Price Checks**  
+Scheduled cron jobs automatically check prices  
 
----
+📧 **Email Alerts**  
+Get notified instantly when prices drop via Resend  
 
-## ✨ Key Features
-
-- Add products using product URLs  
-- Track real-time product prices  
-- Daily automated price tracking  
-- Visual price history charts  
-- Email alerts on price drops  
-- Secure user authentication  
-- Scalable backend architecture  
-
----
-
-## 🔄 How It Works
-
-1. User adds a product link  
-2. Backend scrapes the product price  
-3. Price data is stored in the database  
-4. Scheduled job updates prices daily  
-5. Price history is maintained  
-6. Email alert is triggered when price drops  
+🧠 **Scalable & Secure Backend**  
+Row Level Security (RLS) ensures user data isolation  
 
 ---
 
 ## 🖼️ Screenshots
 
-> _(Images will be added from local folders)_
+### 🏠 Landing Page
+![Landing Page](./screenshots/landing-page.png)
 
-### 🏠 Dashboard
-![Dashboard](./frontend/src/assets/screenshots/dashboard.png)
-
-### 📦 Product Tracking Page
-![Product Tracking](./frontend/src/assets/screenshots/product-tracking.png)
+### 📦 Product Tracking Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
 ### 📊 Price History Chart
-![Price History Chart](./frontend/src/assets/screenshots/price-history-chart.png)
+![Price History](./screenshots/price-history.png)
 
 ### 📧 Price Drop Alert Email
-![Email Alert](./frontend/src/assets/screenshots/email-alert.png)
+![Email Alert](./screenshots/email-alert.png)
+
+> _Add screenshots inside the `screenshots/` folder._
 
 ---
 
+## 🛠️ Tech Stack
+
+### Framework & UI
+- **Next.js 16** (App Router)
+- **React**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Recharts** (Price charts)
+
+### Backend & Database
+- **Supabase**
+  - PostgreSQL
+  - Google Authentication
+  - Row Level Security (RLS)
+  - `pg_cron` for scheduled jobs
+
+### Web Scraping
+- **Firecrawl**
+  - JavaScript rendering
+  - Anti-bot handling
+  - Rotating proxies
+  - AI-powered structured data extraction
+
+### Email
+- **Resend** (Transactional emails)
+
+---
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have:
+
+- Node.js 18+
+- Supabase account
+- Firecrawl account
+- Resend account
+- Google OAuth credentials (Google Cloud Console)
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone & Install
+
+```bash
+git clone https://github.com/your-username/tracklet.git
+cd tracklet
+npm install
