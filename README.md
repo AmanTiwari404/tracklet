@@ -187,29 +187,6 @@ Resend sends alerts if prices drop
 
 ---
 
-## 📁 Project Structure
-
-tracklet/
-├── app/
-│   ├── page.js
-│   ├── api/
-│   │   └── cron/check-prices/route.js
-│   └── auth/callback/route.js
-├── components/
-│   ├── AddProductForm.js
-│   ├── ProductCard.js
-│   ├── PriceChart.js
-│   └── AuthModal.js
-├── lib/
-│   ├── firecrawl.js
-│   ├── email.js
-│   └── utils.js
-├── supabase/
-│   └── migrations/
-├── screenshots/
-└── .env.local
-
----
 
 ## ⚠️ Limitations
 
